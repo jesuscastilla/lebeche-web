@@ -109,3 +109,17 @@ código de barras.
 
 - **Archivo multimedia** (fotos, carteles y documentos de la asociación).
 - **Tablón de anuncios** (avisos y novedades).
+
+## Herramientas
+
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML), [CSS](https://developer.mozilla.org/es/docs/Web/CSS) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) — web estática.
+- [PHP](https://www.php.net/) — panel Staff.
+- [Nginx](https://nginx.org/) — servidor web (Web Station).
+- [MariaDB](https://mariadb.org/) — base de datos.
+- [Cloudflare](https://www.cloudflare.com/) — DNS y HTTPS.
+- [Synology Web Station](https://www.synology.com/dsm) — alojamiento.
+
+## Mantenimiento automático
+
+Este repositorio es revisado **cada noche** por agentes automáticos que buscan bugs en el código. Por ello, entre las **03:00** y las **05:00** es probable que no todo funcione correctamente.
+
