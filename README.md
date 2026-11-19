@@ -3,10 +3,9 @@
 Sitio web de la **Asociación Lebeche**, asociación cultural y vecinal de Salobreña (Granada),
 y el índice de los proyectos digitales que impulsa.
 
-> Infraestructura: NAS Synology con Web Station (Nginx + PHP 8 + MariaDB).
-> Dominio público: `https://www.corrientelebeche.es/lebeche/` (dominio paraguas `corrientelebeche.es`; ver `docs/GUIA_DOMINIO_CORRIENTELEBECHE.md`).
-> Logos en `G:\GITHUB\LOGOS\`.
-> SSH al NAS: `192.168.50.93` (o `192.168.50.94`), puerto 22 · Archivos SMB: `\\192.168.50.94\`.
+> **Infraestructura:** NAS Synology con Web Station (Nginx + PHP 8 + MariaDB).
+> **Dominio público:** `https://www.corrientelebeche.es/lebeche/` (ver `docs/GUIA_DOMINIO_CORRIENTELEBECHE.md`).
+> **Despliegue:** Guía detallada en `docs/GUIA_NAS_SYNOLOGY_WEB_STATION.md`.
 
 ---
 
@@ -93,12 +92,12 @@ Aplicaciones y servicios digitales de la **Asociación Lebeche** (Salobreña, Gr
 Aplicación de biblioteca vecinal autogestionada: catálogo, préstamos y devoluciones por
 código de barras.
 
-| Entrega | Tecnología | Repositorio local | Estado |
+| Entrega | Tecnología | Repositorio en GitHub | Estado |
 |---|---|---|---|
-| Web (PWA) | React 19 + Vite + Tailwind + TypeScript | `g:\GITHUB\barrioteca-web\` | activa |
-| Backend | SLiMS 9.7.2 (PHP + MariaDB) | `g:\GITHUB\barrioteca-slims\` | activa |
-| Android | Kotlin + Jetpack Compose (nativa) | `g:\GITHUB\barrioteca-android\` | activa |
-| iOS | Swift | `g:\GITHUB\barrioteca-ios\` | activa |
+| Web (PWA) | React 19 + Vite + Tailwind + TypeScript | [barrioteca-web](https://github.com/jesuscastilla/barrioteca-web) | Activa |
+| Backend | SLiMS 9 Bulian (PHP + MariaDB) | [barrioteca-slims](https://github.com/jesuscastilla/barrioteca-slims) | Activa |
+| Android | Kotlin + Jetpack Compose (nativa) | [barrioteca-android](https://github.com/jesuscastilla/barrioteca-android) | Activa |
+| iOS | Swift + WKWebView | [barrioteca-ios](https://github.com/jesuscastilla/barrioteca-ios) | Activa |
 
 - **URL pública:** `https://www.corrientelebeche.es/barrioteca/`
 - **Acceso sin app**: la web (PWA) sigue siendo la vía principal para quien no usa smartphone y para iOS.
