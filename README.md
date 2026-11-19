@@ -72,21 +72,6 @@ Aplicaciones y servicios digitales de la **Asociación Lebeche** (Salobreña, Gr
 
 ---
 
-## Calendario Lebeche — App Android nativa (CalDAV)
-
-- **Estado:** en desarrollo (v1)
-- **Tipo:** app Android nativa (Kotlin + Jetpack Compose)
-- **Repositorio:** https://github.com/jesuscastilla/monderas-app (el calendario pasó a formar parte de Mondera's App)
-- **Package ID:** `com.lebeche.calendario`
-- **Descripción:** calendario que se conecta a servidores **CalDAV** (como **Synology
-  Calendar**), permite crear/editar/ver eventos con **notificaciones**, sincronización
-  bidireccional y **exporta los eventos al calendario del sistema Android**.
-- **Tecnología:** Kotlin · Jetpack Compose · OkHttp · biweekly (iCalendar) · WorkManager ·
-  AlarmManager · SQLite · CalendarContract.
-- **Icono:** símbolo de Lebeche en negro (`LOGOS/icono lebeche negro.jpg`).
-
----
-
 ## Barrioteca Acalencá
 
 Aplicación de biblioteca vecinal autogestionada: catálogo, préstamos y devoluciones por

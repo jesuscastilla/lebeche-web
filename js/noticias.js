@@ -18,13 +18,6 @@ window.NOTICIAS_LEBECHE = [
     destacada: false
   },
   {
-    titulo: "Calendario Lebeche, en preparación",
-    categoria: "Apps",
-    fecha: "2026-09-09",
-    texto: "Estamos preparando una agenda común de la asociación con recordatorios, sincronizada con el calendario del móvil.",
-    destacada: false
-  },
-  {
     titulo: "Tablón de anuncios y archivo multimedia, próximamente",
     categoria: "Apps",
     fecha: "2026-09-09",
